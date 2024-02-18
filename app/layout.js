@@ -1,6 +1,6 @@
-import { Inter } from "next/font/google";
+import { Inter } from "next/font/google"; //Urbanist
 import "../styles/globals.css";
-import { Navbar } from "@/components";
+import { Navbar, Footer } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +15,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
-        <div className="absolute w-[50%] gradient-02" />
+        {/* <div className="absolute w-[50%] gradient-02" /> */}
+        <Footer />
       </body>
     </html>
   );
