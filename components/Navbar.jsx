@@ -23,9 +23,8 @@ const Navbar = () => {
         delay: 1,
         ease: "easeIn",
       }}
-      className={`${styles.xPaddings} py-8 relative`}
+      className={`${styles.xPaddings} sm:py-8 pt-8 pb-4 relative`}
     >
-      <div className="absolute w-[50%] inset-0 gradient-03 opacity-80	" />
       <div
         className={`${styles.innerWidth} flex justify-between gap-8 items-center`}
       >

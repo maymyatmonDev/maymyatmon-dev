@@ -36,17 +36,19 @@
 
 .gradient-02 {
   position: absolute;
-  width: 100px;
+  width: 300px;
   height: 300px;
+  border-radius: 50%;
   top: 50%;
   right: 0;
 
-  background: #7aebfb;
-  filter: blur(120px);
+  background: #7aecfba7;
+  filter: blur(105px);
+  z-index: -1;
 }
 
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.365);
   box-shadow: 0 8px 32px 0 rgb(31 38 135 / 8%);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -57,24 +59,45 @@
   position: absolute;
   width: 20vw;
   height: 50vh;
+  border-radius: 50%;
   left: 0%;
   top: 5%;
+  z-index: -1;
 
-  background: rgba(125, 122, 251, 0.5);
+  background: rgba(124, 122, 251, 0.497);
   filter: blur(105px);
   transform: rotate(-114.2deg);
 }
 
 .gradient-04 {
   position: absolute;
-  width: 304px;
-  height: 100vh;
-  left: 30%;
-  top: 10%;
+  width: 200px;
+  height: 200px;
+  right: 50%;
+  bottom: 10%;
+  border-radius: 300px;
+  z-index: -1;
 
-  background: rgba(45, 72, 152, 0.75);
-  filter: blur(200px);
-  transform: rotate(-53.13deg);
+  background: #ac62c6b5;
+  filter: blur(105px);
+}
+
+@media (max-width: 768px) {
+  .gradient-04 {
+    width: 100px;
+    height: 100px;
+    filter: blur(60px);
+  }
+  .gradient-02 {
+    width: 100px;
+    height: 100px;
+    filter: blur(50px);
+  }
+  .gradient-03 {
+    width: 100px;
+    height: 100px;
+    filter: blur(50px);
+  }
 }
 
 .gradient-05 {
@@ -105,4 +128,114 @@
 
   background: #65c4fa;
   filter: blur(150px);
+}
+
+.bg-blur {
+  filter: blur(90px);
+}
+
+.shape-1 {
+  width: 30vw;
+  height: 30vh;
+  background-color: #8d39a3;
+  border-radius: 50%;
+  position: absolute;
+  animation: moving1 10s infinite;
+}
+.shape-2 {
+  width: 30vw;
+  height: 30vh;
+  background-color: #65c4fa;
+  border-radius: 50%;
+  position: absolute;
+  animation: moving2 10s infinite;
+}
+.shape-3 {
+  width: 30vw;
+  height: 30vh;
+  background-color: #a509ff;
+  border-radius: 50%;
+  position: absolute;
+  animation: moving1 10s infinite;
+}
+
+@keyframes moving1 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 10vh;
+  }
+  50% {
+    left: 100px;
+    top: 20vh;
+  }
+  75% {
+    left: 50px;
+    top: 10vh;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes moving2 {
+  0% {
+    right: 0px;
+    top: 0px;
+  }
+  25% {
+    right: 50px;
+    top: 100px;
+  }
+  50% {
+    right: 100px;
+    top: 30vh;
+  }
+  75% {
+    right: 0;
+    top: 10vh;
+  }
+  100% {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes moving3 {
+  0% {
+    right: 0px;
+    bottom: 0px;
+  }
+  25% {
+    right: 15vw;
+    bottom: 10vh;
+  }
+  50% {
+    right: 25vw;
+    bottom: 20vh;
+  }
+  75% {
+    right: 10vw;
+    bottom: 30vh;
+  }
+  100% {
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+.animate-gradient-1 {
+  animation: moving1 10s infinite;
+}
+
+.animate-gradient-2 {
+  animation: moving2 10s infinite;
+}
+
+.animate-gradient-3 {
+  animation: moving3 10s infinite;
 }

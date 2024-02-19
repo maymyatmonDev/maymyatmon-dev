@@ -56,7 +56,7 @@ const Home = () => {
             delay: 3.2,
             ease: "easeIn",
           }}
-          className="xl:text-[20px] md:text-[16px] text-[14px] lg:pt-[30px] pt-[20px] tlg:leading-8 xl:leading-10 lg:w-[65%] w-[80%]"
+          className="xl:text-[20px] md:text-[16px] text-[14px] lg:pt-[30px] pt-[20px] tlg:leading-8 xl:leading-10 lg:w-[65%] md:w-[80%] w-[97%] font-[300]"
         >
           I'm a{" "}
           <motion.span
@@ -210,7 +210,7 @@ const Home = () => {
           ease: "easeIn",
           duration: 0.5,
         }}
-        className="md:text-[16px] text-[12px] lg:leading-6 xl:leading-8 lg:w-[60%] w-[90%] lg:px-4 px-2 md:mt-0 mt-[-50px]"
+        className="md:text-[16px] text-[12px] lg:leading-6 xl:leading-8 lg:w-[60%] w-[90%] lg:px-4 px-2 md:mt-0 mt-[-50px] font-[300]"
       >
         If you're looking for a frontend developer who can bring your digital
         vision to life, I'd love to hear from you. Feel free to check out my{" "}
