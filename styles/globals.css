@@ -57,7 +57,7 @@
   right: 0;
 
   background: rgba(122, 236, 251, 0.5);
-  filter: blur(105px);
+  filter: blur(50px);
   z-index: -1;
 }
 
@@ -70,8 +70,8 @@
   top: 5%;
   z-index: -1;
 
-  background: rgba(124, 122, 251, 0.497);
-  filter: blur(105px);
+  background: rgba(124, 122, 251, 0.599);
+  filter: blur(50px);
   transform: rotate(-114.2deg);
 }
 
@@ -85,7 +85,7 @@
   z-index: -1;
 
   background: #ac62c6b5;
-  filter: blur(105px);
+  filter: blur(50px);
 }
 
 .gradient-05 {
