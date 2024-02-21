@@ -11,7 +11,11 @@ export const TypingTextHero = () => {
         className={`xl:text-3xl lg:text-2xl md:text-xl font-bold flex flex-wrap`}
       >
         {Array.from(title).map((letter, index) => (
-          <motion.span key={index} variants={textVariant2} className="">
+          <motion.span
+            key={index}
+            variants={textVariant2}
+            className="dark:text-secondary-white"
+          >
             {letter === " " ? "\u00A0" : letter}
           </motion.span>
         ))}

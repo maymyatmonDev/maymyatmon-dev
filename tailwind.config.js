@@ -24,7 +24,17 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        gradientText: {
+          "0%": { backgroundPosition: "0% 50%" },
+          "100%": { backgroundPosition: "100% 50%" },
+        },
+      },
+      animation: {
+        gradientText: "gradientText 5s linear infinite",
+      },
     },
   },
+  darkMode: "class",
   plugins: [],
 };

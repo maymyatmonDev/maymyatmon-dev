@@ -3,6 +3,7 @@
 import styles from "@/styles";
 import { motion } from "framer-motion";
 import { TextGradient } from ".";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const Navbar = () => {
   return (
@@ -30,13 +31,9 @@ const Navbar = () => {
       >
         <TextGradient
           text="M3 Portfolio"
-          textStyles="md:text-[24px] text-[18px] font-bold"
+          textStyles="md:text-[18px] text-[14px] font-bold"
         />
-        <img
-          src="/dark-icon.svg"
-          alt="dark-mode"
-          className="md:w-[30px] w-[20px] md:h-[30px] h-[20px] object-contain cursor-pointer"
-        />
+        <ThemeSwitcher />
       </div>
     </motion.nav>
   );
