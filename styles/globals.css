@@ -39,7 +39,7 @@
     270deg,
     #8d39a3,
     #7d7afb,
-    #85d2ff,
+    #9adaff,
     #7d7afb,
     #8d39a3,
     #65c4fa
@@ -66,25 +66,26 @@
   width: 20vw;
   height: 50vh;
   border-radius: 50%;
-  left: 0%;
-  top: 5%;
+  right: 0%;
+  bottom: 15vh;
   z-index: -1;
 
-  background: rgba(124, 122, 251, 0.599);
+  background: rgba(124, 122, 251, 0.432);
   filter: blur(50px);
   transform: rotate(-114.2deg);
 }
 
 .gradient-04 {
   position: absolute;
-  width: 200px;
+  width: 250px;
   height: 200px;
   right: 50%;
   bottom: 10%;
-  border-radius: 300px;
+  border-radius: 50%;
   z-index: -1;
+  transform: rotate(-114.2deg);
 
-  background: #ac62c6b5;
+  background: #ab62c68d;
   filter: blur(50px);
 }
 
@@ -149,24 +150,24 @@
 
 @keyframes moving1 {
   0% {
-    left: 0px;
-    top: 0px;
+    right: 0px;
+    bottom: 15vh;
   }
   25% {
-    left: 0;
-    top: 10vh;
+    right: 0;
+    bottom: 20vh;
   }
   50% {
-    left: 100px;
-    top: 20vh;
+    right: 20vw;
+    bottom: 40vh;
   }
   75% {
-    left: 50px;
-    top: 10vh;
+    right: 30vw;
+    bottom: 30vh;
   }
   100% {
-    left: 0px;
-    top: 0px;
+    right: 0px;
+    bottom: 15vh;
   }
 }
 
@@ -203,7 +204,7 @@
     bottom: 10vh;
   }
   50% {
-    right: 25vw;
+    right: 5vw;
     bottom: 20vh;
   }
   75% {

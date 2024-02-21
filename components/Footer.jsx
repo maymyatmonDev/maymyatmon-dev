@@ -20,7 +20,7 @@ const Footer = () => {
         initial="hidden"
         animate="show"
         transition={{
-          delay: 4.2,
+          delay: 8,
           ease: "easeIn",
         }}
         className={`${styles.xPaddings} flex sm:gap-2 gap-1 items-center`}

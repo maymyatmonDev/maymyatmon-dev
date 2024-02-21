@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          <div className="absolute inset-0 gradient-03 animate-gradient-1 dark:opacity-40" />
+          <div className="absolute gradient-03 animate-gradient-1 dark:opacity-40" />
           <Navbar />
           {children}
           <div className="absolute gradient-02 animate-gradient-2 dark:opacity-50" />

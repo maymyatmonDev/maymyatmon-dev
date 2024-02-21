@@ -43,15 +43,16 @@ const Home = () => {
           initial="hidden"
           animate="show"
           transition={{
-            delay: 3.2,
+            delay: 6,
             ease: "easeIn",
           }}
           className="dark:text-secondary-white xl:text-[20px] md:text-[16px] text-[14px] lg:pt-[30px] pt-[20px] tlg:leading-8 xl:leading-10 lg:w-[65%] md:w-[80%] w-[97%] font-[300]"
         >
-          I'm a{" "}
-          <span className="text-gradient-animate text-transparent font-normal animate-gradientText">
+          I'm a{"  "}
+          <span className="text-gradient-animate text-transparent font-[400] italic animate-gradientText">
             Frontend Engineer
-          </span>{" "}
+          </span>
+          {"  "}
           with a passion for crafting innovative digital experiences. <br />I
           specialize in web app development using{" "}
           <TextGradient text="React" textStyles="font-normal" /> and frontend UI
@@ -76,7 +77,7 @@ const Home = () => {
         initial="hidden"
         animate="show"
         transition={{
-          delay: 3.2,
+          delay: 7,
           ease: "easeIn",
           duration: 0.5,
         }}
@@ -97,7 +98,7 @@ const Home = () => {
         initial="hidden"
         animate="show"
         transition={{
-          delay: 3.7,
+          delay: 7,
           ease: "easeIn",
           duration: 0.5,
         }}
