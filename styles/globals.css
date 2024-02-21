@@ -39,7 +39,7 @@
     270deg,
     #8d39a3,
     #7d7afb,
-    #9adaff,
+    #85d2ff,
     #7d7afb,
     #8d39a3,
     #65c4fa
@@ -72,7 +72,7 @@
 
   background: rgba(124, 122, 251, 0.432);
   filter: blur(50px);
-  transform: rotate(-114.2deg);
+  /* transform: rotate(-114.2deg); */
 }
 
 .gradient-04 {
@@ -83,7 +83,7 @@
   bottom: 10%;
   border-radius: 50%;
   z-index: -1;
-  transform: rotate(-114.2deg);
+  /* transform: rotate(-114.2deg); */
 
   background: #ab62c68d;
   filter: blur(50px);
