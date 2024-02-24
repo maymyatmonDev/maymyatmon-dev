@@ -108,8 +108,8 @@ const Home = () => {
         vision to life, I'd love to hear from you. Feel free to check out my{" "}
         <motion.span>
           <a
-            href="/resume-sample.pdf"
-            download="/resume-sample.pdf"
+            href="/MayMyatMon-Resume.pdf"
+            download="/MayMyatMon-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
