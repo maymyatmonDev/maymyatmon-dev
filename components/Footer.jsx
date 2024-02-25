@@ -43,6 +43,11 @@ const Footer = () => {
           />
         </a>
       </motion.div>
+      <div className={`${styles.xPaddings} absolute md:bottom-10 bottom-8`}>
+        <span className="lg:pl-4 pl-2 md:text-[12px] text-[10px] dark:text-secondary-white dark:opacity-30 dark:font-[200] font-[300]">
+          © May Myat Mon
+        </span>
+      </div>
     </div>
   );
 };
